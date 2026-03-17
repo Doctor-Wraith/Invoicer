@@ -1,0 +1,48 @@
+body {
+    margin: 0 0 0 0;    
+}
+
+#main-wrapper {
+    display: flex;
+    height: 85vh;
+    margin: 0 0 0 0;
+    padding: 5vh 25vh 10vh 25vh;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.user-input-wrapper {
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    margin-right: 10px
+}
+
+.preview-wrapper {
+    height: 100%;
+    width: 100%;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+
+.content {
+    background-color: chocolate;
+    display: block;
+    height: 95%;
+    width: 100%
+
+}
+
+.header {
+    background-color: blueviolet;
+    display: block;
+    height: 5%;
+    width: 100%;
+    padding-top: 1vh;
+    padding-bottom: 5vh;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
