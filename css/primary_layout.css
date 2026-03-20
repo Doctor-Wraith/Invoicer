@@ -2,6 +2,7 @@ body {
     margin: 0 0 0 0;    
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(90deg, #2a1ad8 0%, #4e26e2 25%, #7231ec 50%, #953df5 75%, #b948ff 100%);
+    color: white;
 }
 
 #main-wrapper {
@@ -12,13 +13,20 @@ body {
     justify-content: center;
     justify-items: center;
     align-items: center;
+    background-color: transparent;
 }
 
 .user-input-wrapper {
-    background-color: transparent;
     height: 100%;
     width: 100%;
-    margin-right: 10px
+    margin-right: 10px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.23);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.8px);
+    -webkit-backdrop-filter: blur(3.8px);
+    border: 1px solid rgba(255, 255, 255, 0.62);
 }
 
 .preview-wrapper {
@@ -26,19 +34,24 @@ body {
     width: 100%;
     margin-left: 10px;
     background-color: transparent;
+    background: rgba(255, 255, 255, 0.23);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.8px);
+    -webkit-backdrop-filter: blur(3.8px);
+    border: 1px solid rgba(255, 255, 255, 0.62);
 }
 
 
 .content {
-    background-color: chocolate;
+    background-color: transparent;
     display: block;
     height: 90%;
-    width: 100%
-
+    width: 100%;
 }
 
 .header {
-    background-color: blueviolet;
+    background-color: transparent;
     display: block;
     height: 5%;
     width: 100%;
