@@ -1,0 +1,17 @@
+.product-header {
+    width: 100%;
+    overflow: auto;
+    border-bottom: 1px solid white;
+    margin: 0 0;
+    padding: 10px 0;
+}
+
+.product-header h2 {
+    float: left;
+    margin: 5px 0;
+    line-height: 1;
+}
+
+.products-buttons {
+    float: right;
+}

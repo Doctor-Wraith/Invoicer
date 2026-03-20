@@ -5,6 +5,15 @@ body {
     color: white;
 }
 
+button {
+    background-color: #b948ff;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
 #main-wrapper {
     display: flex;
     height: 85vh;

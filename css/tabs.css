@@ -37,7 +37,7 @@
 .tabcontent {
     background-color: transparent;
     display: none;
-    padding: 6px 12px;
+    padding: 6px 0px;
     /* border: 1px solid #ccc; */
     border-top: none;
     height: 92%;
