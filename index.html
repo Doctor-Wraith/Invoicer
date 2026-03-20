@@ -5,20 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Invoicer</title>
     <link rel="stylesheet" href="css/primary_layout.css">
+    <link rel="stylesheet" href="css/tabs.css">
+    <script src="js/tabs.js"></script>
 </head>
 <body>
     <div class="main-wrapper" id="main-wrapper">
         <div class="user-input-wrapper">
             <div class="user-input-header header">
-                <h2>Invoice Details</h2>
+                <h3>Invoice Details</h3>
+            </div>
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'Product')" id="openDefault">Products</button>
+                <button class="tablinks" onclick="openTab(event, 'Customer')">Customer</button>
+                <button class="tablinks" onclick="openTab(event, 'Invoice')">Invoice</button>
+                <button class="tablinks" onclick="openTab(event, 'Payment')">Payment</button>
+                <button class="tablinks" onclick="openTab(event, 'Company')">Company</button>
             </div>
             <div class="user-input-content content">
-                
+
+                <div class="tabcontent" id="Product">
+                    <h3>Products</h3>
+                    <p>Place holder fdr Products</p>
+                </div>
+
+                <div class="tabcontent" id="Customer">
+                    <h3>Customer</h3>
+                    <p>Place Holder for Customer</p>
+                </div>
+                <div class="tabcontent" id="Invoice">
+                    <h3>Invoice</h3>
+                    <p>Place Holder for Invoice</p>
+                </div>
+                <div class="tabcontent" id="Payment">
+                    <h3>Payment</h3>
+                    <p>Place Holder for Payment</p>
+                </div>
+                <div class="tabcontent" id="Company">
+                    <h3>Company</h3>
+                    <p>Place Holder for Company</p>
+                </div>
+
+
             </div>
         </div>
         <div class="preview-wrapper">
             <div class="preview-input-header header">
-                <h2>Preview</h2>
+                <h3>Preview</h3>
             </div>
             <div class="preview-input-content content">
                 
@@ -26,4 +58,7 @@
         </div>
     </div>
 </body>
+<script>
+    document.getElementById("openDefault").click();
+</script>
 </html>

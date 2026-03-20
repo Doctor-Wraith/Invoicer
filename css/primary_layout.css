@@ -1,5 +1,7 @@
 body {
     margin: 0 0 0 0;    
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(90deg, #2a1ad8 0%, #4e26e2 25%, #7231ec 50%, #953df5 75%, #b948ff 100%);
 }
 
 #main-wrapper {
@@ -30,7 +32,7 @@ body {
 .content {
     background-color: chocolate;
     display: block;
-    height: 95%;
+    height: 90%;
     width: 100%
 
 }
@@ -41,7 +43,7 @@ body {
     height: 5%;
     width: 100%;
     padding-top: 1vh;
-    padding-bottom: 5vh;
+    padding-bottom: 3vh;
     text-align: center;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
