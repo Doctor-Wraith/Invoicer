@@ -1,55 +1,83 @@
 .product-header {
-    width: 100%;
-    overflow: auto;
-    border-bottom: 1px solid white;
-    margin: 0 0;
-    padding: 10px 0;
+  width: 100%;
+  overflow: auto;
+  border-bottom: 1px solid white;
+  margin: 0 0;
+  padding: 10px 0;
 }
 
 .product-header h2 {
-    float: left;
-    margin: 5px 0;
-    line-height: 1;
+  float: left;
+  margin: 5px 0;
+  line-height: 1;
 }
 
 .products-buttons {
-    float: right;
+  float: right;
 }
 
 .pruducts-list-wrapper {
-    margin-top: 10px;
-    border: 1px solid white;
-    min-height: 20vh;
-    width: 100%;
-    padding: 0;
+  margin-top: 10px;
+  border: 1px solid white;
+  min-height: 20vh;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
 }
 
 .pruducts-list {
-    overflow: none;
-    margin-top: 0;
-    padding: 0;
-    min-height: 20vh;
-    height: 100%;
-    width: 100%;
-    /* background-color: orange; */
-    display: grid;
-    grid-template-columns: 50% 20% 20% 10%;
+  overflow: none;
+  margin-top: 0;
+  padding: 0;
+  min-height: 20vh;
+  height: 100%;
+  width: 100%;
+  /* background-color: orange; */
 }
 
 .Product-name {
-    margin: 0 0 0 0;
-    padding: 1rem;
+  margin: 0 0 0 0;
+  padding: 1rem;
 }
 
 .button-holder {
-    width: 100%;
-    padding-bottom: 5px;
-    display: flex;
-    justify-content: center;
-    /* background-color: red; */
+  width: 100%;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  /* background-color: red; */
 }
 
-.add-product{
-    display: block;
-    width: 95%;
+.add-product {
+  display: block;
+  width: 95%;
+}
+
+.product-list-header {
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  font-weight: 500;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.product-row {
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+}
+
+
+
+.product-row input {
+  min-width: 0;
+  width: 100%;
+  box-sizing: border-box; /* add these */
+  overflow: hidden;
+}
+
+.remove-button {
+    background-color: rgb(222, 53, 53);
+    border: 1px solid rgb(122, 8, 8)
 }

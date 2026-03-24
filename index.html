@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/tabs.css">
     <link rel="stylesheet" href="css/product.css">
     <script src="js/tabs.js"></script>
+    <script src="js/products.js"></script>
 </head>
 <body>
     <div class="main-wrapper" id="main-wrapper">
@@ -32,20 +33,27 @@
                         <div class="product-header">
                             <h2>Products</h2>
                             <div class="products-buttons">
-                                <button>+ Add Product</button>
+                                <button onclick="addProduct()">+ Add Product</button>
                             </div>
                         </div>
                         
                         <div class="pruducts-list-wrapper">
                             <div class="pruducts-list">
-                                <div class="product-list-header">
-                                    <p class="Product-name">Name</p>
-                                </div>
-                                
+                                <!-- Header                       -->
+                                 <div class="product-list-header">
+                                    <div style="flex: 6;">Name</div>
+                                    <div style="flex: 4;">Model/SKU</div>
+                                    <div style="flex: 4;">Quantity</div>
+                                    <div style="flex: 4;">Price</div>
+                                    <div style="flex: 1;"></div>
+                                 </div>
+
+                                 <!-- Rows -->
+                                <div id="rows"></div>
                             </div>
 
                             <div class="button-holder">
-                                <button class="add-product">Add Product</button>
+                                <button class="add-product" onclick="addProduct()">Add Product</button>
                             </div>
                         </div>
 
@@ -86,5 +94,6 @@
 </body>
 <script>
     document.getElementById("openDefault").click();
+    addProduct()
 </script>
 </html>
