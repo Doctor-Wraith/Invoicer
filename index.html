@@ -17,12 +17,14 @@
             </div>
             <div class="user-input-content content">
                 <div class="content-wrapper">
-                    <div class="tab">
-                        <button class="tablinks" onclick="openTab(event, 'Product')" id="openDefault">Products</button>
-                        <button class="tablinks" onclick="openTab(event, 'Customer')">Customer</button>
-                        <button class="tablinks" onclick="openTab(event, 'Invoice')">Invoice</button>
-                        <button class="tablinks" onclick="openTab(event, 'Payment')">Payment</button>
-                        <button class="tablinks" onclick="openTab(event, 'Company')">Company</button>
+                        <div class="tab-wrapper">
+                            <div class="tab">
+                                <button class="tablinks" onclick="openTab(event, 'Product')" id="openDefault">Products</button>
+                                <button class="tablinks" onclick="openTab(event, 'Customer')">Customer</button>
+                                <button class="tablinks" onclick="openTab(event, 'Invoice')">Invoice</button>
+                                <button class="tablinks" onclick="openTab(event, 'Payment')">Payment</button>
+                                <button class="tablinks" onclick="openTab(event, 'Company')">Company</button>
+                            </div>
                     </div>
                 
 
@@ -34,6 +36,19 @@
                             </div>
                         </div>
                         
+                        <div class="pruducts-list-wrapper">
+                            <div class="pruducts-list">
+                                <div class="product-list-header">
+                                    <p class="Product-name">Name</p>
+                                </div>
+                                
+                            </div>
+
+                            <div class="button-holder">
+                                <button class="add-product">Add Product</button>
+                            </div>
+                        </div>
+
                     </div>
 
                     <div class="tabcontent" id="Customer">

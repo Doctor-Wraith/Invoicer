@@ -1,20 +1,27 @@
 .tab {
     overflow: hidden;
     /* border: 1px solid #ccc; */
-    background-color: transparent;
+    background-color: #4e26e250;
     display: flex;
     justify-content: center;
-    border-bottom: 1px solid white;
     padding: 5px 20px;
     color: white;
+    border-radius: 10px;
+    /* margin: 20; */
 }
 
 .content-wrapper {
     padding: 0px 20px;
 }
 
+.tab-wrapper {
+    justify-content: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
 .tab button {
-    background-color: inherit;
+    background-color: transparent;
     border: none;
     outline: none;
     cursor: pointer;

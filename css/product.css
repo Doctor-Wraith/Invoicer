@@ -15,3 +15,41 @@
 .products-buttons {
     float: right;
 }
+
+.pruducts-list-wrapper {
+    margin-top: 10px;
+    border: 1px solid white;
+    min-height: 20vh;
+    width: 100%;
+    padding: 0;
+}
+
+.pruducts-list {
+    overflow: none;
+    margin-top: 0;
+    padding: 0;
+    min-height: 20vh;
+    height: 100%;
+    width: 100%;
+    /* background-color: orange; */
+    display: grid;
+    grid-template-columns: 50% 20% 20% 10%;
+}
+
+.Product-name {
+    margin: 0 0 0 0;
+    padding: 1rem;
+}
+
+.button-holder {
+    width: 100%;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.add-product{
+    display: block;
+    width: 95%;
+}
